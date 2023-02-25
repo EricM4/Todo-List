@@ -1,0 +1,134 @@
+* {
+  background-color: #41b3a3;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+  margin-top: 0;
+  font-family: Arial, sans-serif;
+}
+* button {
+  border-radius: 10px;
+}
+.title-container {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 0;
+  justify-items: center;
+  align-items: center;
+  height: 200px;
+  background-color: #ffffff;
+  margin-top: 0;
+  border-right: 2px #006400 solid;
+  border-left: 2px #006400 solid;
+}
+.title-container h1 {
+  background-color: #ffffff;
+  color: #006400;
+  margin-bottom: 0;
+}
+.hide-show {
+  display: inline-block;
+  height: 40px;
+  background-color: #e27d60;
+  border-top: 2px #006400 solid;
+  border-left: 2px #006400 solid;
+  border-right: 2px #006400 solid;
+  border-bottom: 2px #006400 solid;
+  margin-bottom: 0;
+  text-align: center;
+  color: #41b3a3;
+  cursor: pointer;
+}
+
+input {
+  color: #006400;
+  width: 230px;
+  height: 35px;
+  background-color: #f2f2f2;
+  border-style: none;
+  margin-right: 0px;
+}
+.todo-btn {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+.addTask {
+  height: 35px;
+  width: 75px;
+  background-color: #e27d60;
+  text-transform: uppercase;
+  margin-left: 0;
+  color: #006400;
+  border: 2px #006400 solid;
+  cursor: pointer;
+}
+
+.hide-show h6 {
+  padding-bottom: 3px;
+  margin-top: 12px;
+  font-size: 14px;
+  height: 20px;
+  align-self: center;
+  justify-self: center;
+  color: #006400;
+  background-color: #e27d60;
+}
+
+.head-div {
+  display: none;
+  height: 300px;
+  background-color: #ffff00;
+}
+
+/* LIST ITEMS */
+
+.list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 665px; /* (700-padding-left)*/
+  float: left;
+  height: 30px;
+  margin-right: 100px;
+  padding-top: 5px;
+  padding-left: 35px;
+  background-color: #ffffff;
+  border-bottom: 2px solid #006400;
+  border-right: 2px solid #006400;
+  border-left: 2px solid #006400;
+}
+.list-item h6 {
+  margin: 0;
+  flex-grow: 0;
+  width: 10%;
+  padding-top: 5px;
+  padding-left: 35px;
+  background-color: #ffffff;
+  font-size: 12px;
+  align-self: flex-start;
+  flex-basis: 75%;
+}
+.list-item button {
+  flex-basis: 25%;
+  width: 12%;
+  height: 25px;
+  background-color: red;
+  border-bottom: 0;
+  justify-self: flex-end;
+  flex-basis: 25%;
+}
+.del-btn {
+  margin-top: 3px;
+  display: inline-block;
+  background-color: red;
+  width: 100px;
+  cursor: pointer;
+  float: left;
+}
+.del-btns {
+  cursor: pointer;
+  border-bottom: 3px solid #006400;
+}
